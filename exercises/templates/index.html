@@ -7,8 +7,21 @@
 
         </head>
         <body>
+            <div position: fixed>
             <h1>Soccer</h1>
             <p>Soccer is my favourite sport</p>
+            </div>
+            <div id="mosalah">
+                <img src="{{url_for('static',filename='salah.jpg')}}"  height="150" width="250">
+            </div>
+            {% if likes_same_sport==True %}
+                <ul>
+                    {% for player in fav_players %}
+                    <li> {{player}} </li>
+                    {% endfor %}
+
+                </ul>
+            {% endif %}
 
         </body>
 

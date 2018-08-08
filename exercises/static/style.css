@@ -1,6 +1,13 @@
 /* Put your CSS Styling here! */
 body{
-background-color:rgb(158, 51, 51);
+background-color:bisque;
+
+
+}
+#mosalah{
+position: relative;
+top: 75px;
+right: 300px;
 
 
 }
